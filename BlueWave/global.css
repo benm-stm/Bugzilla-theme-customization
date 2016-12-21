@@ -1,0 +1,44 @@
+#titles {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgb(0, 32, 82);
+}
+
+.tabs td.selected {
+    background: #39a9dc;
+    border-width: 2px 2px 0px 2px;
+    color: #fff;
+    font-family: Arial,Helvetica,sans-serif;
+    text-decoration: none;
+}
+
+.tabs td {
+    background: #002052;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 0px 2px 0px;
+}
+
+.tabs td a {
+    color: #fff;
+    font-family: Arial,Helvetica,sans-serif;
+    text-decoration: none;
+}
+
+body, td, th, input {
+    font-family: Verdana, sans-serif;
+    font-size: small;
+}
+body, p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+input, .button {
+    background: none;
+    color: #002052;
+    border: 1px solid #002052;
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
